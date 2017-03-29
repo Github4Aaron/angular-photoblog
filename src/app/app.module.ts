@@ -19,3 +19,8 @@ export class AppModule {  //exporting so it is available in other modules
     //Metadata is info used by angular to associate stylesheets, html templates to modules or component
 
 }
+
+//SUMMARY: an Angular app needs a module, and a module needs a component, and each of these needs a bit of metadata using decorators to apply configuration.
+//Module and components are regular JS classes. Adding each component to the declaration is required.
+
+//Component = Template + Class + Decorator
